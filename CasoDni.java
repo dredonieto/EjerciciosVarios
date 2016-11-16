@@ -19,7 +19,7 @@ public class CasoDni{
 		
 	}
 	public static char letraDNI(int numero, String tbl){
-		int module = numero % 23;
-		return tbl.charAt(module);
+		int mod = numero % 23;
+		return tbl.charAt(mod);
 	}
 }
